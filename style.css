@@ -44,7 +44,7 @@ img {
     position: relative;
     min-height: 100vh;
     overflow: hidden;
-    background-image: url("imagens/hero-haras.png");
+    background-image: url("hero-haras.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
