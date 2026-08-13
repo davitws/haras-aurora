@@ -260,46 +260,7 @@ img {
 .hero-button:hover span {
     transform: translateX(5px);
 }
-.scroll-indicator {
-    position: absolute;
-    z-index: 3;
-    left: 50%;
-    bottom: 22px;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    color: rgba(245, 242, 236, 0.62);
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-}
-.scroll-line {
-    position: relative;
-    width: 1px;
-    height: 34px;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.24);
-}
-.scroll-line::after {
-    content: "";
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #d6b274;
-    animation: rolagem 1.8s ease-in-out infinite;
-}
-@keyframes rolagem {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(200%);
-    }
+
 }
 /* --------------------------------------------------------------------------
    9. RESPONSIVIDADE E AJUSTES POR TAMANHO DE TELA
